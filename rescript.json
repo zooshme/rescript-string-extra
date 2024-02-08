@@ -1,6 +1,5 @@
 {
   "name": "@zooshme/rescript-string-extra",
-  "namespace": "string",
   "sources": [
     {
       "dir": "./src",
