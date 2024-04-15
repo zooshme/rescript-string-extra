@@ -1,0 +1,36 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  rescript:
+    specifier: ^11.0.1
+    version: registry.npmjs.org/rescript@11.0.1
+
+devDependencies:
+  '@rescript/core':
+    specifier: ^1.2.0
+    version: registry.npmjs.org/@rescript/core@1.2.0(rescript@11.0.1)
+
+packages:
+
+  registry.npmjs.org/@rescript/core@1.2.0(rescript@11.0.1):
+    resolution: {integrity: sha512-/crGFHKPGeCCrwkVZQ0ugJZxjh79pT5nIPdlfITwiQvO4FoxwnABRiHWiJ7bi2H0RiU1KRrUtVwA5CQV4hJVnQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@rescript/core/-/core-1.2.0.tgz}
+    id: registry.npmjs.org/@rescript/core/1.2.0
+    name: '@rescript/core'
+    version: 1.2.0
+    peerDependencies:
+      rescript: '>=11.0.0 || ^11.1.0-rc.2'
+    dependencies:
+      rescript: registry.npmjs.org/rescript@11.0.1
+    dev: true
+
+  registry.npmjs.org/rescript@11.0.1:
+    resolution: {integrity: sha512-7T4PRp/d0+CBNnY6PYKffFqo9tGZlvnZpboF/n+8SKS+JZ6VvXJO7W538VPZXf3EYx1COGAWWvkF9e/HgSAqHg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/rescript/-/rescript-11.0.1.tgz}
+    name: rescript
+    version: 11.0.1
+    engines: {node: '>=10'}
+    hasBin: true
+    requiresBuild: true

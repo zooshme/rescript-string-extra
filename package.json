@@ -1,13 +1,15 @@
 {
   "name": "@zooshme/rescript-string-extra",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "res:build": "./node_modules/.bin/rescript",
     "res:dev": "./node_modules/.bin/rescript build -w"
   },
   "dependencies": {
-    "@rescript/core": "^0.7.0",
     "rescript": "^11.0.1"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@rescript/core": "^1.2.0"
+  }
 }
